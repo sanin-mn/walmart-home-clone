@@ -1,0 +1,95 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+/* header */
+.search{
+  width: 50%;
+}
+@media screen and (max-width: 768px) {
+  .search {
+    width: 100%;
+    margin-top: 1rem;
+  }
+  /* subheader */
+  .sub-header{
+    display: none;
+  }
+  /* footer */
+  .top-footer{
+    display: none;
+  }
+  .bottom-footer{
+    background-color: antiquewhite;
+  }
+  .hero h4{
+    display: none;
+  }
+  .btn-hero1{
+    display: none;
+  }
+}
+
+/* sub heading */
+.sub-headings a{
+  text-decoration: none;
+  margin-left: 2rem;
+  overflow: hidden;
+  color: black;
+}
+.sub-headings a :hover{
+  color: rgb(27, 27, 214);
+}
+/* hero */
+.hero{
+  position: relative;
+}
+.hero h4{
+  position: absolute;
+  margin-left:4rem ;
+  margin-top: 2rem;
+}
+.btn-hero1{
+  position: absolute;
+  margin-left:4rem ;
+  margin-top: 4rem;
+  background-color: transparent;
+  padding: .5rem;
+  border-radius: 1rem;
+}
+.hero img{
+  width: 100%;
+  border-radius: 1rem;
+  padding: .5rem;
+}
+
+.btn-hero1 :hover{
+  background-color: black;
+  color: white;
+}
+/* footer */
+.footer .top-footer{
+  background-color: rgb(210, 250, 255);
+  width: 100%;
+  height: 10rem;
+  
+}
+.footer .top-footer p{
+  padding-top: 2.5rem;
+}
+.footer .bottom-footer{
+  background-color: rgb(18, 85, 167);
+  width: 100%;
+  height: 12rem;
+}
+
+.footer .bottom-footer p{
+  padding-top: 2.5rem;
+  color: white;
+  padding-left:2rem;
+  padding-right:2rem;
+  font-size: 15px;
+}
