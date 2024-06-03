@@ -7,8 +7,8 @@ import { RiApps2Line } from "react-icons/ri";
 
 function subheader() {
     return (
-        <div className='sub-header'>
-            <Navbar className="pe-5 " style={{backgroundColor:'#EDF6FF'}}>
+        <div className='sub-header ' style={{zIndex:'1000',width:'100%'}}>
+            <Navbar className="pe-5 " style={{backgroundColor:'#D7ECFF'}}>
                
                    <div className='me-auto d-flex'>
                         {/* Department */}

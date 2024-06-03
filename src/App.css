@@ -9,10 +9,18 @@
 .search{
   width: 50%;
 }
+
 @media screen and (max-width: 768px) {
+  .hero{
+    margin-top: 3rem;
+  }
   .search {
     width: 100%;
-    margin-top: 1rem;
+  }
+  .drop-main{
+    height: 3rem;
+    padding-top: 5rem;
+    width: 100%;
   }
   /* subheader */
   .sub-header{
@@ -34,6 +42,10 @@
 }
 
 /* sub heading */
+.sub-header{
+  position: fixed;
+  margin-top: 5rem;
+}
 .sub-headings a{
   text-decoration: none;
   margin-left: 2rem;
@@ -46,6 +58,7 @@
 /* hero */
 .hero{
   position: relative;
+  padding-top: 9rem;
 }
 .hero h4{
   position: absolute;
