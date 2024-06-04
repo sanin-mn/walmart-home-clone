@@ -19,7 +19,7 @@ import '../App.css'
 function Smallslider() {
   return (
     <div className='ms-5 me-3 w-100'>
-    <h2 className='mt-3'>Fashion Deals</h2>
+    <h3 className='mt-3 mb-0'>Fashion Deals</h3>
     <small className='text-muted'>Up to 45% off</small>
       <Swiper
       // slidesPerView={4}
